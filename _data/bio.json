@@ -1,113 +1,93 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Katelynn Crouch",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
+    "picture": "img/katelynn_headshot.png",
+    "email": "kkcrouch@hawaii.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "website": "kkcrouch808.github.io",
+    "summary": "I am currently pursuing a Bachelor of Science in Computer Science in the Department of Information and Computer Sciences at the University of Hawai‘i at Mānoa, with an expected graduation date of Spring 2027. Following the completion of my undergraduate degree, I plan to continue my studies at the University of Hawai‘i to pursue a Master’s degree in Computer Science.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "kkcrouch808", "url": "http://github.com/kkcrouch808" },
+      { "network": "linkedin", "username": "kkcrouch", "url": "linkedin.com/in/katelynn-crouch-b913b6304" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Data Science" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Leadership" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "Java", "C", "C++", "Javascript", "HTML", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Git", "GitHub", "Command-Line Interfaces", "IntelliJ IDEA", "Eclipse", "VSCode", "macOS" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-08-25",
       "endDate": "Present",
-      "courses": [
+      "courses": [ "ICS 111", "ICS 211", "ICS 212"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "UH Manoa Information and Computer Sciences Department",
+      "position": "Student Advisor",
+      "website": "https://www.ics.hawaii.edu/academics/undergraduate-programs/advising/",
+      "startDate": "2024-09-03",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+     "summary": "Advises first and second-year ICS students, connects them with opportunities, and supports departmental programming.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Proactively guided and supported 100+ students in course selection, improving understanding of academic pathways and informed decision-making",
+        "Facilitated access to academic/career resources, empowering students to pursue internships and scholarships",
+        "Collaborated with faculty on Welina Mānoa, CNS Welcome Day, and Group Advising, contributing to a ~5% increase in participation and engagement in departmental activities"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
+      "organization": "UH Mānoa Association for Computing Machinery (ACM)",
+      "website": "https://acmmanoa.org/",
+      "position": "Vice President, Operations Director",
       "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Plans and executes chapter-wide events, aligns SIGs, and leads cross-team operations.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Led planning and execution of 5+ chapter events with seamless cross-team coordination",
+        "Achieved 100% alignment with event objectives in partnership with ACM sections and SIGs",
+        "Represented ACM in external planning meetings, strengthening visibility and campus partnerships",
+        "Key projects: Kekuhaupi’o Tech Mentorship, Career in Tech & Intelligence Fair, ACM General Meeting,"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "UH Mānoa ACM Software Development Team",
+      "position": "Member",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
+      "summary": "Contributed to React-based applications serving ACM and student users.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Developed and maintained 3+ web applications using React as part of the club’s software solutions",
+        "Collaborated in a small, agile team to deliver on-time, spec-compliant features",
+        "High-impact contributions: Attendance Tracker, ACM Website Maintenance, Datathon Website"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "The President's Volunteer Service Award",
+      "date": "2024",
+      "awarder": "AmeriCorps",
+      "summary": "The President's Volunteer Service Award is a civil award bestowed by the President of the United States."
     }
   ],
   "references": [
