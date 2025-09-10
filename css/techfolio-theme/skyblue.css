@@ -1,10 +1,11 @@
 /* Dark Rose Theme: black background, dark gray surfaces, white text, pink accents */
-
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* Palette & Bootstrap variable overrides */
+/* =========================
+   Palette & Bootstrap variable overrides
+   ========================= */
 :root {
   /* Core palette */
   --tf-bg: #0b0b0c;           /* page background (near-black) */
@@ -17,10 +18,10 @@
   --tf-pink-2: #ff99b8;       /* hover/active */
   --tf-focus: rgba(255, 122, 162, 0.35); /* focus ring */
 
-  /* Keep your existing font */
+  /* Typography */
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
-  /* Bootstrap global colors */
+  /* Bootstrap globals */
   --bs-body-bg: var(--tf-bg);
   --bs-body-color: var(--tf-text);
   --bs-link-color: var(--tf-pink);
@@ -29,7 +30,10 @@
   --bs-heading-color: var(--tf-text);
   --bs-secondary-color: var(--tf-muted);
 
-  /* Your custom tokens (repointed to dark palette) */
+  /* Disable Bootstrap gradients globally */
+  --bs-gradient: none;
+
+  /* Custom tokens */
   --tf-pill-bg: var(--tf-pink);
   --tf-icon-fill: var(--tf-text);
   --tf-icon-hover: var(--tf-pink);
@@ -38,8 +42,10 @@
   --tf-projects-bg-color: var(--tf-surface);
 }
 
-/* Typography */
-body {
+/* =========================
+   Base
+   ========================= */
+html, body {
   background-color: var(--tf-bg);
   color: var(--tf-text);
 }
@@ -60,13 +66,15 @@ a:hover, a:focus {
   outline: none;
 }
 
-/* Pink accent focus ring for accessible focus states */
+/* Focus ring */
 :focus-visible {
   outline: 2px solid var(--tf-pink);
   outline-offset: 2px;
 }
 
-/* Social icons */
+/* =========================
+   Icons
+   ========================= */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
@@ -77,36 +85,53 @@ a:hover, a:focus {
 }
 .tf-social:hover { fill: var(--tf-icon-hover); }
 
-/* Navbar / Footer */
+/* =========================
+   Navbar / Footer
+   ========================= */
 .navbar, .navbar-nav .dropdown-menu {
   background-color: var(--tf-surface) !important;
+  background-image: none !important;
 }
 .navbar .nav-link { color: var(--tf-text) !important; }
 .navbar .nav-link:hover { color: var(--tf-pink-2) !important; }
 
 footer, .site-footer {
   background-color: var(--tf-footer-bg-color);
+  background-image: none !important;
   color: var(--tf-muted);
   border-top: 1px solid var(--tf-border);
 }
 
-/* Cards & common surfaces */
+/* =========================
+   Cards & common surfaces
+   ========================= */
 .card, .list-group-item, .dropdown-menu, .modal-content,
 .offcanvas, .toast {
   background-color: var(--tf-surface);
+  background-image: none !important;
   color: var(--tf-text);
   border: 1px solid var(--tf-border);
 }
 .card .card-subtitle, .list-group-item small { color: var(--tf-muted); }
 
-/* Horizontal rule */
+/* Remove any lingering “overlay” gradients */
+.card, .card-header, .card-footer {
+  background-image: none !important;
+  background-color: var(--tf-surface) !important;
+}
+
+/* Rule */
 hr { border-top: 1px solid var(--tf-border); opacity: 1; }
 
-/* Forms */
+/* =========================
+   Forms
+   ========================= */
 .form-control, .form-select, .input-group-text, .form-check-input {
   background-color: var(--tf-surface-2);
   color: var(--tf-text);
   border: 1px solid var(--tf-border);
+  background-image: none !important;
+  box-shadow: none;
 }
 .form-control::placeholder { color: var(--tf-muted); }
 .form-control:focus, .form-select:focus {
@@ -120,7 +145,16 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   border-color: var(--tf-pink);
 }
 
-/* Buttons */
+/* =========================
+   Buttons
+   ========================= */
+/* Remove gradients/shadows on all buttons */
+.btn, .btn:focus {
+  background-image: none !important;
+  box-shadow: none;
+}
+
+/* Primary stays pink (for CTAs) */
 .btn-primary {
   background-color: var(--tf-pink);
   border-color: var(--tf-pink);
@@ -131,6 +165,43 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   border-color: var(--tf-pink-2);
   color: #0b0b0c;
 }
+
+/* “Read more” style: white by default, pink on hover
+   (common variants used by Techfolios cards) */
+.btn-secondary,
+.btn-outline-secondary,
+.btn-light,
+.btn-outline-light {
+  background-color: #ffffff;
+  color: #0b0b0c;
+  border-color: #ffffff;
+}
+.btn-secondary:hover, .btn-secondary:focus,
+.btn-outline-secondary:hover, .btn-outline-secondary:focus,
+.btn-light:hover, .btn-light:focus,
+.btn-outline-light:hover, .btn-outline-light:focus {
+  background-color: var(--tf-pink);
+  border-color: var(--tf-pink);
+  color: #0b0b0c;
+}
+
+/* If “Read more” uses .btn-link, make it a real pill button */
+.btn-link {
+  color: #0b0b0c;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: .375rem .75rem;
+  border-radius: .375rem;
+  text-decoration: none;
+}
+.btn-link:hover, .btn-link:focus {
+  color: #0b0b0c;
+  background-color: var(--tf-pink);
+  border-color: var(--tf-pink);
+  text-decoration: none;
+}
+
+/* Outline primary for optional usage */
 .btn-outline-primary {
   color: var(--tf-pink);
   border-color: var(--tf-pink);
@@ -142,13 +213,22 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   border-color: var(--tf-pink);
 }
 
-/* Pills, badges, labels using your custom token */
+/* Extra contrast for borders on dark bg */
+.btn, .card, .form-control {
+  border-color: var(--tf-border);
+}
+
+/* =========================
+   Badges / Pills
+   ========================= */
 .badge, .nav-pills .nav-link.active {
   background-color: var(--tf-pill-bg);
   color: #0b0b0c;
 }
 
-/* Tables */
+/* =========================
+   Tables
+   ========================= */
 .table {
   --bs-table-bg: var(--tf-surface);
   --bs-table-color: var(--tf-text);
@@ -158,24 +238,42 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   --bs-table-accent-bg: var(--tf-surface-2);
 }
 
-/* Images with the circular frame */
+/* =========================
+   Images
+   ========================= */
 .rounded-circle {
   border-color: var(--tf-pink);
   border-style: solid;
   border-width: 1px;
 }
 
-/* Mobile tweaks */
-@media (max-width: 500px) {
-  .navbar-brand { display: none; }
-  .navbar-brand-mobile { display: inline; }
-}
-
-/* Optional: code blocks if you use them */
+/* =========================
+   Code blocks
+   ========================= */
 pre, code, kbd, samp {
   color: var(--tf-text);
 }
 pre, code {
   background-color: var(--tf-surface-2);
   border: 1px solid var(--tf-border);
+}
+
+/* =========================
+   Kill gradients everywhere (belt & suspenders)
+   ========================= */
+.bg-gradient,
+.btn,
+.navbar,
+.card,
+footer,
+.site-footer {
+  background-image: none !important;
+}
+
+/* =========================
+   Mobile tweaks
+   ========================= */
+@media (max-width: 500px) {
+  .navbar-brand { display: none; }
+  .navbar-brand-mobile { display: inline; }
 }
