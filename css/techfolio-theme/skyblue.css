@@ -1,60 +1,181 @@
-/* Skyblue Theme: modifies the default theme to use blue in various places. */
+/* Dark Rose Theme: black background, dark gray surfaces, white text, pink accents */
 
-/* Use Open Sans as the default font. */
+/* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Palette & Bootstrap variable overrides */
 :root {
-  --tf-blue1: #076db3;
-  --tf-blue2: #1b6fa9;
-  --tf-blue3: #2f8ed0;
-  --tf-blue4: #bde3f0;
+  /* Core palette */
+  --tf-bg: #0b0b0c;           /* page background (near-black) */
+  --tf-surface: #1a1a1d;      /* cards/nav/footer */
+  --tf-surface-2: #242429;    /* inputs, secondary panels */
+  --tf-border: #2e2e34;       /* subtle borders/dividers */
+  --tf-text: #f5f5f7;         /* primary text (white-ish) */
+  --tf-muted: #b8b8bf;        /* secondary text */
+  --tf-pink: #ff7aa2;         /* accent (soft pink) */
+  --tf-pink-2: #ff99b8;       /* hover/active */
+  --tf-focus: rgba(255, 122, 162, 0.35); /* focus ring */
+
+  /* Keep your existing font */
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--tf-blue1);
-  --tf-pill-bg: var(--tf-blue3);
-  --tf-icon-fill: var(--tf-blue1);
-  --tf-icon-hover: var(--tf-blue3);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--tf-blue4);
-  --tf-projects-bg-color: var(--tf-blue4);
+
+  /* Bootstrap global colors */
+  --bs-body-bg: var(--tf-bg);
+  --bs-body-color: var(--tf-text);
+  --bs-link-color: var(--tf-pink);
+  --bs-link-hover-color: var(--tf-pink-2);
+  --bs-border-color: var(--tf-border);
+  --bs-heading-color: var(--tf-text);
+  --bs-secondary-color: var(--tf-muted);
+
+  /* Your custom tokens (repointed to dark palette) */
+  --tf-pill-bg: var(--tf-pink);
+  --tf-icon-fill: var(--tf-text);
+  --tf-icon-hover: var(--tf-pink);
+  --tf-page-bg-color: var(--tf-bg);
+  --tf-footer-bg-color: var(--tf-surface);
+  --tf-projects-bg-color: var(--tf-surface);
 }
 
-h1,h2,h3,h4,h5 {
-  color: var(--tf-blue1);
-  font-family: Rubik;
+/* Typography */
+body {
+  background-color: var(--tf-bg);
+  color: var(--tf-text);
 }
 
-/* Format social media icons */
+h1, h2, h3, h4, h5 {
+  color: var(--bs-heading-color);
+  font-family: Rubik, var(--bs-font-sans-serif), sans-serif;
+}
+
+/* Links */
+a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: var(--bs-link-hover-color);
+  text-decoration: none;
+  outline: none;
+}
+
+/* Pink accent focus ring for accessible focus states */
+:focus-visible {
+  outline: 2px solid var(--tf-pink);
+  outline-offset: 2px;
+}
+
+/* Social icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-blue1);
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
   transition: 0.2s;
 }
+.tf-social:hover { fill: var(--tf-icon-hover); }
 
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
+/* Navbar / Footer */
+.navbar, .navbar-nav .dropdown-menu {
+  background-color: var(--tf-surface) !important;
+}
+.navbar .nav-link { color: var(--tf-text) !important; }
+.navbar .nav-link:hover { color: var(--tf-pink-2) !important; }
+
+footer, .site-footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--tf-muted);
+  border-top: 1px solid var(--tf-border);
 }
 
-a {
-  text-decoration: none;
+/* Cards & common surfaces */
+.card, .list-group-item, .dropdown-menu, .modal-content,
+.offcanvas, .toast {
+  background-color: var(--tf-surface);
+  color: var(--tf-text);
+  border: 1px solid var(--tf-border);
+}
+.card .card-subtitle, .list-group-item small { color: var(--tf-muted); }
+
+/* Horizontal rule */
+hr { border-top: 1px solid var(--tf-border); opacity: 1; }
+
+/* Forms */
+.form-control, .form-select, .input-group-text, .form-check-input {
+  background-color: var(--tf-surface-2);
+  color: var(--tf-text);
+  border: 1px solid var(--tf-border);
+}
+.form-control::placeholder { color: var(--tf-muted); }
+.form-control:focus, .form-select:focus {
+  background-color: var(--tf-surface-2);
+  color: var(--tf-text);
+  border-color: var(--tf-pink);
+  box-shadow: 0 0 0 .25rem var(--tf-focus);
+}
+.form-check-input:checked {
+  background-color: var(--tf-pink);
+  border-color: var(--tf-pink);
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
+/* Buttons */
+.btn-primary {
+  background-color: var(--tf-pink);
+  border-color: var(--tf-pink);
+  color: #0b0b0c;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--tf-pink-2);
+  border-color: var(--tf-pink-2);
+  color: #0b0b0c;
+}
+.btn-outline-primary {
+  color: var(--tf-pink);
+  border-color: var(--tf-pink);
+  background: transparent;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  color: #0b0b0c;
+  background-color: var(--tf-pink);
+  border-color: var(--tf-pink);
 }
 
+/* Pills, badges, labels using your custom token */
+.badge, .nav-pills .nav-link.active {
+  background-color: var(--tf-pill-bg);
+  color: #0b0b0c;
+}
+
+/* Tables */
+.table {
+  --bs-table-bg: var(--tf-surface);
+  --bs-table-color: var(--tf-text);
+  --bs-table-border-color: var(--tf-border);
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: var(--tf-surface-2);
+}
+
+/* Images with the circular frame */
 .rounded-circle {
-  border-color: var(--tf-blue1);
+  border-color: var(--tf-pink);
   border-style: solid;
   border-width: 1px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 500px) {
+  .navbar-brand { display: none; }
+  .navbar-brand-mobile { display: inline; }
+}
+
+/* Optional: code blocks if you use them */
+pre, code, kbd, samp {
+  color: var(--tf-text);
+}
+pre, code {
+  background-color: var(--tf-surface-2);
+  border: 1px solid var(--tf-border);
 }
