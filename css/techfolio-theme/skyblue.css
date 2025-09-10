@@ -102,17 +102,6 @@ footer, .site-footer {
   border-top: 1px solid var(--tf-border);
 }
 
-/* Navbar brand (site title) */
-.navbar-brand {
-  color: #ffffff !important;       /* white text */
-  text-decoration: none;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: var(--tf-pink) !important;  /* soft pink hover */
-  text-decoration: none;
-}
 
 /* =========================
    Cards & common surfaces
@@ -305,3 +294,36 @@ footer,
   color: #0b0b0c;                     /* readable on pink */
   background-image: none !important;
 }
+
+/* Force dark-mode colors even when the markup has `navbar-light bg-light` */
+.navbar.navbar-light,
+.navbar.bg-light {
+  /* Text/link variables Bootstrap reads */
+  --bs-navbar-color: var(--tf-text);              /* default link = white */
+  --bs-navbar-hover-color: var(--tf-pink-2);      /* hover = pink */
+  --bs-navbar-active-color: var(--tf-pink);       /* active link */
+  --bs-navbar-disabled-color: var(--tf-muted);
+
+  --bs-navbar-brand-color: #ffffff;               /* brand = white */
+  --bs-navbar-brand-hover-color: var(--tf-pink);  /* brand hover = pink */
+
+  background-color: var(--tf-surface) !important; /* kill the light bg */
+  color: var(--tf-text) !important;
+}
+
+/* Belt & suspenders: make sure the actual elements pick up the vars */
+.navbar .navbar-brand { color: var(--bs-navbar-brand-color) !important; }
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus { color: var(--bs-navbar-brand-hover-color) !important; }
+
+.navbar .nav-link { color: var(--bs-navbar-color) !important; }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus { color: var(--bs-navbar-hover-color) !important; }
+
+/* Globally neutralize .bg-light so it doesn't fight the dark theme anywhere */
+.bg-light { background-color: var(--tf-surface) !important; }
+
+/* Toggler (hamburger) visibility on dark bg */
+.navbar .navbar-toggler { border-color: var(--tf-border); }
+.navbar .navbar-toggler-icon { filter: invert(1); } /* make the icon light */
+
