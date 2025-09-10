@@ -277,3 +277,19 @@ footer,
   .navbar-brand { display: none; }
   .navbar-brand-mobile { display: inline; }
 }
+
+/* Read More button overrides */
+.btn-outline-dark {
+  background-color: #575757;       /* white background */
+  color: #ffffff;                  /* dark text */
+  border: 1px solid #ffffff;
+  background-image: none !important;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  background-color: var(--tf-pink);   /* pink hover */
+  border-color: var(--tf-pink);
+  color: #0b0b0c;                     /* readable on pink */
+  background-image: none !important;
+}
