@@ -102,6 +102,18 @@ footer, .site-footer {
   border-top: 1px solid var(--tf-border);
 }
 
+/* Navbar brand (site title) */
+.navbar-brand {
+  color: #ffffff !important;       /* white text */
+  text-decoration: none;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: var(--tf-pink) !important;  /* soft pink hover */
+  text-decoration: none;
+}
+
 /* =========================
    Cards & common surfaces
    ========================= */
