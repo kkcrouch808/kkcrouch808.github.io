@@ -338,17 +338,15 @@ footer,
 .navbar .navbar-toggler { border-color: var(--tf-border) !important; }
 .navbar .navbar-toggler-icon { filter: invert(1) !important; }
 
-/* --- Make the ESSAYS section itself dark (overrides inline style) --- */
+/* Only the inner container dark */
 html body #essays {
-  background-color: var(--tf-surface) !important;  /* dark gray */
   background-image: none !important;
-  color: var(--tf-text);
 }
-
-/* In case any earlier rule set the inner container transparent, override it */
 html body #essays > .container {
-  background-color: var(--tf-surface) !important;  /* or use var(--tf-surface-2) if you want contrast */
+  background-color: var(--tf-surface) !important;
+  color: var(--tf-text);
   border: 1px solid var(--tf-border);
   border-radius: .5rem;
   padding: 1rem;
 }
+
