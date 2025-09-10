@@ -338,13 +338,18 @@ footer,
 .navbar .navbar-toggler { border-color: var(--tf-border) !important; }
 .navbar .navbar-toggler-icon { filter: invert(1) !important; }
 
-/* Force section containers (like Essays) to be dark gray */
-#essays .container,
-#projects .container,
-.container {
+/* Make the Essays section dark gray and kill its gradient */
+#essays {
   background-color: var(--tf-surface) !important;
-  background-image: none !important;
   color: var(--tf-text);
-  border-radius: .5rem; /* optional: subtle rounding */
-  padding: 1rem;       /* optional: give content breathing space */
+}
+#essays.bg-gradient {
+  background-image: none !important;
+}
+
+/* Keep inner blocks transparent so the section color shows through */
+#essays > .container,
+#essays .row,
+#essays .card {
+  background-color: transparent !important;
 }
