@@ -21,4 +21,4 @@ To address this, we designed and developed a React-based web application that al
 
 Through this project, I gained hands-on experience with Git and the command line to push, pull, and manage project updates, while collaborating in a team environment that emphasized version control, peer feedback, and iterative development. The experience strengthened my technical skills and gave me insight into building practical software solutions that directly support organizational needs.
 
-Source: <a href="https://attendance.acmmanoa.org/login"><i class="large github icon "></i>https://attendance.acmmanoa.org/login</a>
+Website Link: <a href="https://attendance.acmmanoa.org/login"><i class="large github icon "></i>https://attendance.acmmanoa.org/login</a>
