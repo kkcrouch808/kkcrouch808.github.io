@@ -19,7 +19,7 @@
   --tf-focus: rgba(255, 122, 162, 0.35); /* focus ring */
 
   /* Typography */
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+--bs-font-sans-serif: "Lato", sans-serif;
 
   /* Bootstrap globals */
   --bs-body-bg: var(--tf-bg);
@@ -45,14 +45,14 @@
 /* =========================
    Base
    ========================= */
-html, body {
-  background-color: var(--tf-bg);
-  color: var(--tf-text);
+/* Typography overrides */
+body {
+  font-family: "Lato", sans-serif;   /* body = Lato */
 }
 
-h1, h2, h3, h4, h5 {
-  color: var(--bs-heading-color);
-  font-family: Rubik, var(--bs-font-sans-serif), sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;  /* headings = Playfair */
+  font-weight: 600; /* makes headings bold but elegant */
 }
 
 /* Links */
