@@ -13,7 +13,7 @@ labels:
 summary: "A React-based website that served as the central hub for ACM’s events, resources, and member engagement."
 ---
 
-<img class="img-fluid" src="../img/acmweb.png">
+<img class="img-fluid" src="../img/acm2.png">
 
 Alongside the Association for Computing Machinery (ACM) Software Development Team, I contributed to the maintenance and enhancement of the club’s official website, which serves as the primary hub for student information, events, and resources. The site needed to stay current and user-friendly so members could easily access schedules, opportunities, and updates.
 
