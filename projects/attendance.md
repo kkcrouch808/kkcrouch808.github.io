@@ -13,7 +13,7 @@ labels:
 summary: "A React-based web application that streamlined attendance tracking for ACM’s seven Special Interest Groups"
 ---
 
-<img class="img-fluid" src="../img/at.png">
+<img class="img-fluid" src="../img/Atten-Track.png">
 
 As part of the Association for Computing Machinery (ACM) Software Development Team, I collaborated with a small group of developers to create a custom attendance tracking system used across the club’s seven Special Interest Groups (SIGs). Tracking attendance was essential for securing funding and demonstrating member engagement, but existing solutions like ID scanners weren’t feasible due to limited hardware availability.
 
