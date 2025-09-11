@@ -21,4 +21,4 @@ Working in a small team, I helped improve the site’s design and functionality 
 
 This project also strengthened my technical foundation in Git and command line workflows, as I frequently pushed, pulled, and merged changes to keep the site aligned with team updates. By contributing to the website, I not only improved my technical and collaboration skills but also supported a vital tool that directly enhances ACM’s visibility and member engagement.
 
-Source: <a href="https://acmmanoa.org/"><i class="large github icon "></i>https://acmmanoa.org/</a>
+Website Link: <a href="https://acmmanoa.org/"><i class="large github icon "></i>https://acmmanoa.org/</a>
