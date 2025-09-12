@@ -108,3 +108,15 @@ From comparing these examples, I learned:
 Smart software engineers don’t just write good code—they also ask good questions. By following Raymond’s principles and StackOverflow’s emphasis on minimal reproducible examples, we can ensure our interactions are efficient, effective, and educational. Poorly framed questions, by contrast, lead to wasted effort, poor answers, or no answers at all.  
 
 The lesson is clear: **invest time in crafting your question as carefully as you craft your code.**  
+
+---
+
+## Use of AI Assistance
+
+I used ChatGPT (OpenAI’s GPT-5 model) to support the writing of this essay. Specifically, AI helped me with:
+
+- Helping me refine my thoughts and points on the examples, so that my explanations were clearer and more complete.  
+- Providing editorial feedback on structure, clarity, and tone.  
+
+The final essay reflects my own understanding and voice, but I acknowledge that AI tools supported me in brainstorming, drafting, and polishing my work.
+
