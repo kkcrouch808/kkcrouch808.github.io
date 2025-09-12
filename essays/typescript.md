@@ -11,7 +11,7 @@ labels:
   - Reflection
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/TypeMeme.png">
 
 *This essay was written for my ICS 314 class at the University of Hawaiʻi at Mānoa. The purpose of this assignment is not only to reflect on what I’ve learned, but also to write in a way that could be useful to someone outside the classroom—maybe even an employer curious about how I think about new tools and learning environments.*
 
