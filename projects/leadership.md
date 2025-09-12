@@ -6,17 +6,15 @@ title: "Building Bridges Between Students and Industry: My Leadership Journey"
 date: 2023-present
 published: true
 labels:
-  - React
-  - JavaScript
-  - Web Application
-  - Git/GitHub
+  - Leadership
+  - Volunteer
+  - Outreach
 summary: "I helped strengthen the UH Mānoa computing community by creating opportunities, fostering industry ties, and supporting student growth."
 ---
 
-<img class="img-fluid" src="../img/Group.png">
+<img class="img-fluid" src="../img/Group.JPG">
 
 ## Leadership and Outreach Through ACM Manoa
-Introduction
 
 During my time at the University of Hawai‘i at Mānoa, the Association for Computing Machinery (ACM) has been at the center of my college leadership and outreach experiences. ACM Manoa plays a vital role in bridging the gap between students and Hawai‘i’s growing IT industry, providing opportunities to build connections, gain professional skills, and foster community within the Information and Computer Sciences (ICS) department. My leadership journey in ACM reflects not only personal growth but also my commitment to strengthening the academic and professional pathways available to my peers.
 
