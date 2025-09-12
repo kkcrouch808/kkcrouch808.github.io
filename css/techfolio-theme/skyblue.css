@@ -352,5 +352,10 @@ html body #essays > .container {
 }
 
 .text-muted {
+  --bs-text-opacity: 1;
   color: #d3d3d3 !important; /* light grey */
+}
+
+small.text-muted {
+  color: #d3d3d3 !important; /* ensures <small> tags are also caught */
 }
