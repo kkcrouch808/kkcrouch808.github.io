@@ -13,88 +13,98 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/TonyMeme.png">
 
-## Is there such thing as a stupid question?
+## Why Smart Questions Matter for Software Engineers
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Eric Raymond’s classic essay [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html) emphasizes that the way you ask a technical question determines the quality of the answer you receive. For software engineers, communication is just as important a skill as coding. A “smart” question demonstrates preparation, context, precision, and respect for others’ time, which leads to faster and better help. A “not smart” question often wastes everyone’s time, produces confusion, or gets ignored.
 
-## What’s a smart question?
+In this essay, I illustrate the difference by analyzing two examples from the StackOverflow community: one that follows Raymond’s precepts, and another that violates them.
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+---
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+## Example of a Smart Question
 
-```
-Q: python date of the previous month
+**Reference**: [Meta StackOverflow – Why should I provide a Minimal Reproducible Example for a very simple SQL query?](https://meta.stackoverflow.com/questions/333952/why-should-i-provide-a-minimal-reproducible-example-for-a-very-simple-sql-query)
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+This thread discusses why StackOverflow emphasizes *Minimal Reproducible Examples (MREs)*. A good “smart” question typically includes:
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+- **Clear, descriptive title**: For example, *“Why does my SQL query return duplicates despite GROUP BY clause?”*
+- **Minimal, complete code/data**: Just enough schema and queries to reproduce the issue.
+- **Context and environment**: Database engine, version, and input dataset.
+- **Expected vs actual behavior**: What result the asker expected, what actually happened.
+- **Evidence of effort**: The asker has tried debugging, simplified their case, and still encounters the problem.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+### Positive Outcomes
+- The community can quickly identify the mistake (e.g., misuse of `DISTINCT` or `JOIN` conditions).
+- Less back-and-forth clarification is needed.
+- The thread remains useful for future readers facing similar issues.
+- Answers tend to be precise, detailed, and upvoted.
 
-I have solved this trouble in bash with:
+This aligns directly with Raymond’s principles: *be precise, do your homework, and provide context*.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+---
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+## Example of a Not-So-Smart Question
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+**Reference**: [Meta StackOverflow – Question Close Reasons, Definitions and Guidance](https://meta.stackoverflow.com/questions/417476/question-close-reasons-definitions-and-guidance)
 
-Thanks for your help!
-```
+Many StackOverflow questions are closed because they violate Raymond’s precepts. A typical “not smart” question looks like this:
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+> **Title**: *“Help me please!!!”*  
+>  
+> **Body**:  
+> I wrote some Python code to read a JSON file, but it doesn’t work.  
+> Can someone tell me what’s wrong?  
+> Here’s part of my code:  
+> ```python
+> data = open("data.json")
+> content = data.read()
+> parsed = json.loads(content)
+> # then I loop but it fails
+> ```
+> Thanks.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+### Problems With This Question
+- The **title** is vague and uninformative.  
+- The **body** lacks a specific error message or expected vs actual output.  
+- The **code** is incomplete and not reproducible.  
+- There’s no **environment info** (Python version, OS, JSON structure).  
+- No indication of **what was tried** before asking.
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+### Negative Outcomes
+- The question is downvoted or closed for *“Needs debugging details”*.  
+- Respondents ask clarifying questions instead of providing solutions.  
+- If answered, responses are generic guesses (“maybe you need `json.load` instead of `loads`”), often inaccurate.  
+- The question provides little value to future readers.
 
-Like this:
+This demonstrates Raymond’s warning: vague questions waste time and are often ignored or closed.
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+---
 
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+## Comparison
 
-## The foolproof way to get ignored.
+| Aspect | Smart Question | Not-Smart Question |
+|--------|----------------|--------------------|
+| **Clarity** | Clear title, well-structured body | Vague title, ambiguous body |
+| **Reproducibility** | Minimal, complete example | Partial code, missing context |
+| **Expected vs Actual** | Explicitly described | Absent (“it doesn’t work”) |
+| **Community Response** | Accurate, detailed answers | Downvotes, closure, guesses |
+| **Value to Others** | Teaches future readers | Low archival value |
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+---
 
-```
-Q: Facebook Desktop Notifier
+## Insights
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+From comparing these examples, I learned:
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+1. **Effort upfront pays off**: Preparing a minimal, reproducible example not only helps others but often helps *me* spot the issue myself.
+2. **Context is critical**: Without version numbers, environment, and error messages, even experts cannot diagnose correctly.
+3. **Professionalism builds reputation**: Thoughtful, precise questions make me appear competent and respectful, which encourages others to help.
+4. **Community norms enforce Raymond’s guidelines**: StackOverflow explicitly closes questions that fail the “smart” test, reinforcing best practices.
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+---
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Smart software engineers don’t just write good code—they also ask good questions. By following Raymond’s principles and StackOverflow’s emphasis on minimal reproducible examples, we can ensure our interactions are efficient, effective, and educational. Poorly framed questions, by contrast, lead to wasted effort, poor answers, or no answers at all.  
 
+The lesson is clear: **invest time in crafting your question as carefully as you craft your code.**  
