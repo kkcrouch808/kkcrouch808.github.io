@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/CF.png
 title: "Building Bridges Between Students and Industry: My Leadership Journey"
-date: 2023
+date: 2023-present
 published: true
 labels:
   - React
