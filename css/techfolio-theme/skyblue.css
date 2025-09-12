@@ -146,6 +146,10 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   border-color: var(--tf-pink);
 }
 
+.text-muted {
+  color: #d3d3d3 !important; /* light grey */
+}
+
 /* =========================
    Buttons
    ========================= */
