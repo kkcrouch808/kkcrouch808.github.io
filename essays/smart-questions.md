@@ -15,9 +15,9 @@ labels:
 
 ## Why Smart Questions Matter for Software Engineers
 
-Eric Raymond’s classic essay [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html) emphasizes that the way you ask a technical question determines the quality of the answer you receive. For software engineers, communication is just as important a skill as coding. A “smart” question demonstrates preparation, context, precision, and respect for others’ time, which leads to faster and better help. A “not smart” question often wastes everyone’s time, produces confusion, or gets ignored.
+Eric Raymond’s classic essay [*How To Ask Questions The Smart Way*](http://www.catb.org/esr/faqs/smart-questions.html) emphasizes that the way you ask a technical question determines the quality of the answer you receive. Communication is a skill that software engineers need just as much as coding. A "smart" question shows context, preparation, precision, and respect for other people's time. All of which results in quicker and more effective help. A "not smart" question frequently causes confusion, is ignored, or wastes everyone's time.
 
-In this essay, I illustrate the difference by analyzing two examples from the StackOverflow community: one that follows Raymond’s precepts, and another that violates them.
+In order show the difference, I will look at two examples from the StackOverflow community: one that complies with Raymond's principles and another that does not.
 
 ---
 
@@ -30,16 +30,16 @@ This thread discusses why StackOverflow emphasizes *Minimal Reproducible Example
 - **Clear, descriptive title**: For example, *“Why does my SQL query return duplicates despite GROUP BY clause?”*
 - **Minimal, complete code/data**: Just enough schema and queries to reproduce the issue.
 - **Context and environment**: Database engine, version, and input dataset.
-- **Expected vs actual behavior**: What result the asker expected, what actually happened.
+- **Expected vs actual behavior**: What result was expected, what actually happened.
 - **Evidence of effort**: The asker has tried debugging, simplified their case, and still encounters the problem.
 
 ### Positive Outcomes
-- The community can quickly identify the mistake (e.g., misuse of `DISTINCT` or `JOIN` conditions).
+- The community can quickly answer the question.
 - Less back-and-forth clarification is needed.
 - The thread remains useful for future readers facing similar issues.
 - Answers tend to be precise, detailed, and upvoted.
 
-This aligns directly with Raymond’s principles: *be precise, do your homework, and provide context*.
+This person did their homework, and provided context.
 
 ---
 
@@ -63,7 +63,7 @@ Many StackOverflow questions are closed because they violate Raymond’s precept
 > ```
 > Thanks.
 
-### Problems With This Question
+### Why Isn't This a Smart Question?
 - The **title** is vague and uninformative.  
 - The **body** lacks a specific error message or expected vs actual output.  
 - The **code** is incomplete and not reproducible.  
@@ -105,9 +105,7 @@ From comparing these examples, I learned:
 
 ## Conclusion
 
-Smart software engineers don’t just write good code—they also ask good questions. By following Raymond’s principles and StackOverflow’s emphasis on minimal reproducible examples, we can ensure our interactions are efficient, effective, and educational. Poorly framed questions, by contrast, lead to wasted effort, poor answers, or no answers at all.  
-
-The lesson is clear: **invest time in crafting your question as carefully as you craft your code.**  
+In addition to writing excellent code, smart software engineers also ask smart questions. We can make sure that our discussions are productive and successful by following Raymond's principles and StackOverflow's emphasis on minimal reproducible examples. On the other hand, poorly constructed questions result in a lack of effort, weak responses, or no responses at all.  
 
 ---
 
