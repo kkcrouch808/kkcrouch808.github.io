@@ -146,9 +146,6 @@ hr { border-top: 1px solid var(--tf-border); opacity: 1; }
   border-color: var(--tf-pink);
 }
 
-.text-muted {
-  color: #d3d3d3 !important; /* light grey */
-}
 
 /* =========================
    Buttons
@@ -354,3 +351,6 @@ html body #essays > .container {
   padding: 1rem;
 }
 
+.text-muted {
+  color: #d3d3d3 !important; /* light grey */
+}
