@@ -7,10 +7,24 @@
     "phone": "808-333-4444",
     "website": "kkcrouch808.github.io",
     "summary": "I am currently pursuing a Bachelor of Science in Computer Science in the Department of Information and Computer Sciences at the University of Hawai‘i at Mānoa, with an expected graduation date of Spring 2027. Following the completion of my undergraduate degree, I plan to continue my studies at the University of Hawai‘i to pursue a Master’s degree in Computer Science.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "kkcrouch808", "url": "http://github.com/kkcrouch808" },
-      { "network": "linkedin", "username": "kkcrouch", "url": "linkedin.com/in/katelynn-crouch-b913b6304" }
+      {
+        "network": "github",
+        "username": "kkcrouch808",
+        "url": "http://github.com/kkcrouch808"
+      },
+      {
+        "network": "linkedin",
+        "username": "kkcrouch",
+        "url": "linkedin.com/in/katelynn-crouch-b913b6304"
+      }
     ]
   },
   "interests": [
@@ -21,11 +35,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "C", "C++", "Javascript", "HTML", "CSS" ]
+      "keywords": ["Python", "Java", "C", "C++", "Javascript", "HTML", "CSS"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Git", "GitHub", "Command-Line Interfaces", "IntelliJ IDEA", "Eclipse", "VSCode", "macOS" ]
+      "keywords": ["Git", "GitHub", "Command-Line Interfaces", "IntelliJ IDEA", "Eclipse", "VSCode", "macOS"]
     }
   ],
   "education": [
@@ -35,10 +49,9 @@
       "studyType": "B.S.",
       "startDate": "2023-08-25",
       "endDate": "Present",
-      "courses": [ "ICS 111", "ICS 141", "ICS 211", "ICS 212", "ICS 241"
-      ]
-    },
-    {
+      "courses": ["ICS 111", "ICS 141", "ICS 211", "ICS 212", "ICS 241"]
+    }
+  ],
   "work": [
     {
       "company": "UH Manoa Information and Computer Sciences Department",
@@ -46,7 +59,7 @@
       "website": "https://www.ics.hawaii.edu/academics/undergraduate-programs/advising/",
       "startDate": "2024-09-03",
       "endDate": "Present",
-     "summary": "Advises first and second-year ICS students, connects them with opportunities, and supports departmental programming.",
+      "summary": "Advises first and second-year ICS students, connects them with opportunities, and supports departmental programming.",
       "highlights": [
         "Proactively guided and supported 100+ students in course selection, improving understanding of academic pathways and informed decision-making",
         "Facilitated access to academic/career resources, empowering students to pursue internships and scholarships",
@@ -66,7 +79,7 @@
         "Led planning and execution of 5+ chapter events with seamless cross-team coordination",
         "Achieved 100% alignment with event objectives in partnership with ACM sections and SIGs",
         "Represented ACM in external planning meetings, strengthening visibility and campus partnerships",
-        "Key projects: Kekuhaupi’o Tech Mentorship, Career in Tech & Intelligence Fair, ACM General Meeting,"
+        "Key projects: Kekuhaupi’o Tech Mentorship, Career in Tech & Intelligence Fair, ACM General Meeting"
       ]
     },
     {
@@ -83,20 +96,19 @@
     }
   ],
   "awards": [
-     {
+    {
       "title": "Student of the Month",
       "date": "2025",
       "awarder": "AFCEA",
-      "summary": "TTo provide visible recognition at our monthly meetings for those public and private students, including college level, who have demonstrated academic excellence to their school staff, to encourage young persons to enter STEM fields, and to encourage superior performance while in school."
-    }
-  ],  
+      "summary": "To provide visible recognition at our monthly meetings for those public and private students, including college level, who have demonstrated academic excellence to their school staff, to encourage young persons to enter STEM fields, and to encourage superior performance while in school."
+    },
     {
       "title": "The President's Volunteer Service Award",
       "date": "2024",
       "awarder": "AmeriCorps",
       "summary": "The President's Volunteer Service Award is a civil award bestowed by the President of the United States."
     }
-  
+  ],
   "references": [
     {
       "name": "Available upon request"
