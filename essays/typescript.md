@@ -13,44 +13,44 @@ labels:
 
 <img width="500px" class="rounded float-start pe-4" src="../img/TypeMeme.png">
 
-*This essay was written for my ICS 314 class at the University of Hawaiʻi at Mānoa. The purpose of this assignment is not only to reflect on what I’ve learned, but also to write in a way that could be useful to someone outside the classroom—maybe even an employer curious about how I think about new tools and learning environments.*
+*I wrote this essay for my University of Hawaiʻi at Mānoa ICS 314 class. In addition to helping me reflect on what I've learned, this assignment aims to write in a way that might be helpful to someone outside of the classroom—possibly even an employer who wants to know how I approach new resources and learning environments.*
 
 ## Adjusting to a New Language
 
-Coming into ICS 314, I had already been coding primarily in Java, with some C++ and Python experience on the side. TypeScript, however, felt like it was playing by its own rules. On the surface, it looks a lot like JavaScript, but with training wheels—or maybe more like guardrails. The type system is there to catch mistakes before they spiral into bugs, which feels reassuring compared to JavaScript’s “try it and see if it breaks” attitude.
+I had previously been coding mostly in Java before taking ICS 314. I also had some experience with C++ and Python. However, TypeScript seemed to be operating under its own set of guidelines. It looks a lot like JavaScript on the surface, but it seems to have guardrails or training wheels. In contrast to JavaScript's "try it and see if it breaks" mentality, the type system is there to identify errors before they become bugs.
 
-Compared to Java, TypeScript is less rigid and more forgiving, which can be refreshing but also confusing at times. C++ trained me to expect that every little detail would matter (and sometimes explode if I wasn’t careful), so TypeScript’s balance between flexibility and structure feels like a middle ground. Python, with its minimal syntax, still feels “friendlier,” but I can see how TypeScript scales better when working on larger projects.
+TypeScript is more flexible and less strict than Java, which is sometimes refreshing but also confusing. I learned to expect that every little detail would matter (and occasionally blow up if I wasn't careful) in C++, so TypeScript's balance of structure and flexibility feels like a compromise. I can see how TypeScript scales better when working on larger projects, but Python still feels "friendlier" with its simpler syntax.
 
 ## What I Actually Learned
 
-I came into this module with some background in GitHub and a little web editing, but I had never built something like a professional portfolio from scratch. That project became my biggest takeaway—not so much TypeScript syntax, but the experience of building something that represents me online. I also found myself digging deeper into CSS than I ever had before, learning how small design choices completely change how “professional” or “unfinished” a site feels.
+I had some experience with web editing and GitHub before this module, but I had never created a professional-style portfolio from the ground up. My greatest takeaway from this project was not so much syntax, since it was the experience of creating an online persona. Additionally, I found myself learning more about CSS than I had ever done before, and how minor design decisions can drastically alter how "professional" or "unfinished" a website feels.
 
-Another surprising lesson was learning how to bring AI into the process. I used it when I got stuck on CSS details, to explain modern JavaScript features like destructuring, and even as a second pair of eyes on my code. Knowing how to prompt AI effectively is becoming just as important as knowing how to search Stack Overflow, and this course gave me plenty of opportunities to practice that skill.
+Another surprising lesson was learning how to incorporate AI into the process. I used it as a second set of eyes on my code, to clarify HTML features, and when I was stuck on CSS details. Effectively prompting AI is becoming crucial, and this course provided me with many chances to hone in on that ability.
 
 ## TypeScript Through a Software Engineer’s Eyes
 
-If I zoom out from being a student and imagine myself as a software engineer evaluating TypeScript, I think it’s a solid language for projects that need both collaboration and long-term maintainability. The typing system enforces discipline, but it doesn’t box you in as much as Java might. In other words: it’s strict enough to prevent chaos, but flexible enough to not feel like a straitjacket.
+If I were a software engineer assessing TypeScript instead of a student, I would say that it's a good language for projects that require both teamwork and long-term maintainability. Though it doesn't restrict you as much as Java might, the typing system does enforce discipline. 
 
-Would I want to build every project in it? Probably not. But for web apps that will be maintained and extended by teams, TypeScript seems like a strong choice.
+Would I want to construct all of my projects using it? Probably not. However, TypeScript seems to be a good option for web applications.
 
 ## The WODs: Stressful but Useful
 
-ICS 314 introduced me to the concept of WODs—Workouts of the Day. Basically, they’re timed coding challenges meant to simulate high-pressure, real-world problem solving. At first, they felt intense, and honestly, stressful. I found the practice WODs helpful, especially with the accompanying videos, but the videos are outdated, which limits their usefulness.
+I first learned about WODs (Workouts of the Day) in my ICS 314 class. They are essentially timed coding challenges designed to mimic real-world problem-solving. They initially felt intense and, to be honest, stressful. Although the videos that go with the practice WODs are out of date, I still found them to be beneficial.
 
-What would take WODs to the next level, in my opinion, is integrating AI guidance—learning how to prompt tools like ChatGPT effectively could be just as valuable as syntax drills. In the real world, professionals increasingly use AI as part of their workflow, so practicing that skill in class would mirror industry reality.
+I believe that adding AI guidance would elevate WODs to a new level. Learning how to use tools like ChatGPT could be just as beneficial as practicing syntax. Professionals in the real world are using AI more and more in their workflow, so having students practice that skill in class would reflect industry reality.
 
 ## My Style of Learning
 
-The WODs exposed a truth about my own learning: I need a balance of guidance and pressure. Throwing me into a timed test without enough modern walkthroughs doesn’t feel effective, but pairing that stress with a big project early in the semester—like the portfolio—was extremely valuable. That project gave me something concrete to show for my time and effort, something I can actually point to as a representation of my skills.
+The WODs revealed the truth about how I learn-- I require a balanced mix of direction and pressure. It doesn't feel good to put me through a timed test without providing enough updated walkthroughs, but it was really beneficial to combine that stress with a big project early in the semester (this portfolio). 
 
-So, do I enjoy this style of learning? Enjoy might be the wrong word—it’s more like training. It’s tough, sometimes frustrating, but ultimately it builds resilience. And if that’s what ICS 314 is trying to teach, then it’s doing its job.
+Do I like this type of learning? I wouldn't say "enjoy" isn't the right word but it's more like training. It's challenging and occasionally annoying, but in the end, it strengthens resilience.
 
 ## Writing With AI
 
-One interesting twist to this essay is that I didn’t write it alone—I collaborated with AI. I used AI to help shape my thoughts into something more polished and professional, making sure the style matched the guidelines for technical writing. I see this less as “outsourcing” my work and more as learning how to prompt, refine, and edit with a tool that mirrors what many professionals already do in industry. This experience also ties into another essay I am developing about AI and schoolwork, where I explore the line between using AI as a shortcut versus as a learning partner. Writing this piece with AI’s assistance gave me first-hand insight into how that balance can work in practice.
+One interesting twist to this essay is that I didn’t write it alone—I collaborated with AI. I made sure the style matched to technical writing criteria by using AI to help me refine and professionalize my ideas. I view this as learning how to prompt, refine, and edit using a tool that reflects what many industry professionals already do. This experience also ties into another essay I'm writing about AI and homework, where I address the line between using AI as a learning aid and as a shortcut. With AI's help, I was able to write this article and gain firsthand knowledge of how that balance can be implemented.
 
 ## Closing Thoughts
 
-Learning TypeScript while balancing WODs and projects hasn’t been easy, but it has been eye-opening. I’ve seen firsthand how a language can change the way I think about software engineering, how a project can sharpen my professional image, and how stress in the right doses can build real skills.
+Although it hasn't been easy, learning TypeScript while juggling WODs and projects has really opened my eyes. I have personally witnessed how a project can enhance my professional image, how a language can alter my perspective on software engineering, and how stress can develop real skills.
 
-At the end of the day, TypeScript might not be my favorite language yet, but I can see its value—and I can see how this course’s unique approach will shape me into not just a better coder, but a better problem solver.
+In the end, TypeScript may not be my favorite language, but I can see its benefits and how the unique approach of this course will help me become a better problem solver as well as a better coder.
