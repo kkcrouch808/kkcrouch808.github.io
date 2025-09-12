@@ -19,7 +19,7 @@ labels:
 
 I had previously been coding mostly in Java before taking ICS 314. I also had some experience with C++ and Python. However, TypeScript seemed to be operating under its own set of guidelines. It looks a lot like JavaScript on the surface, but it seems to have guardrails or training wheels. In contrast to JavaScript's "try it and see if it breaks" mentality, the type system is there to identify errors before they become bugs.
 
-TypeScript is more flexible and less strict than Java, which is sometimes refreshing but also confusing. I learned to expect that every little detail would matter (and occasionally blow up if I wasn't careful) in C++, so TypeScript's balance of structure and flexibility feels like a compromise. I can see how TypeScript scales better when working on larger projects, but Python still feels "friendlier" with its simpler syntax.
+TypeScript is more flexible and less strict than Java, which is sometimes refreshing but also... weird. I learned to expect that every little detail would matter (and occasionally blow up if I wasn't careful) in C++, so TypeScript's balance of structure and flexibility feels like a compromise. I can see how TypeScript scales better when working on larger projects, but Python still feels "friendlier" with its simpler syntax.
 
 ## What I Actually Learned
 
