@@ -21,18 +21,18 @@ People always overlook minor details like where to place curly braces or whether
 
 One of the most surprising things I found is that coding standards can help you learn programming languages. At first, using ESLint in VSCode was extremely annoying because it picked up a lot of tiny problems. Problems that ChatGPT and Copilot wouldn't catch. I would find myself saying, "Really?" I have to change all of these double quotes to singles? But eventually, I realized it was really helping me form better habits. Just fixing the warnings taught me about safe equality checks, unused variables, and clear naming.
 
-## In the context of relationships
+## Painful but Useful
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+I'll be honest... at first, it took a lot of time to fix all the ESLint errors. I felt like I was fighting ES Lint because of how much it slowed me down. However, I sometimes have to remind myself, "If it's screaming at me, maybe there's a reason." Right now, I am still very frustrated with it, but I hope that my appreciation for it grows as I work with it more. I do find that my code gets cleaner and simpler to read as because of those "annoying" warnings.
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+## My Takeaway
 
-Relationships have always been difficult, and by nature will continue to be so.
+At first glance, coding standards may appear strict or redundant or unnecessary, or useless, but I can tell that they will have long-term advantages. They push you to write better code and teach you best practices for the language along the way. They will still annoy me a lot, but I know this will help me grow.
 
-## Okay!
+## Use of AI Assistance
 
-So back to the original premise; why is being one of the club officers so difficult?
+I used ChatGPT (OpenAI’s GPT-5 model) to support the writing of this essay. Specifically, AI helped me with:
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Helping me refine my thoughts and points on the examples, so that my explanations were clearer and more complete.
+Providing editorial feedback on structure, clarity, and tone.
+The final essay reflects my own understanding and voice, but I acknowledge that AI tools supported me in brainstorming, drafting, and polishing my work.
