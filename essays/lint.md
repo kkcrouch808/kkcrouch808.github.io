@@ -10,20 +10,16 @@ labels:
   - VS Code
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/lintMeme.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/lintMeme.png">
 
 
 ## Getting Past the Small Stuff
 
 People always overlook minor details like where to place curly braces or whether to use two or four spaces for indentation. This is a part of learning the term "coding standards." You may even ask why it even matters if there were two spaces rather than four. What difference does it make? The pointisn't about the importance of spaces, though. Coding standards reduce errors, improve readability, and establish consistency. It's like speaking a common language where everyone follows the same rules. You spend more time comprehending what the code does and less time trying to understand the decisions made by others.
 
-## In the context of engineering
+## A Tool That Teaches
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+One of the most surprising things I found is that coding standards can help you learn programming languages. At first, using ESLint in VSCode was extremely annoying because it picked up a lot of tiny problems. Problems that ChatGPT and Copilot wouldn't catch. I would find myself saying, "Really?" I have to change all of these double quotes to singles? But eventually, I realized it was really helping me form better habits. Just fixing the warnings taught me about safe equality checks, unused variables, and clear naming.
 
 ## In the context of relationships
 
