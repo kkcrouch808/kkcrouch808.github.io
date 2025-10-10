@@ -22,9 +22,11 @@ As a user interface (UI) framework, Bootstrap essentially provides developers wi
 Before Bootstrap, I had to write countless lines of CSS to center an image or ensure that text on mobile devices didn't overflow the screen. With a few classes, Bootstrap resolves that.
 ---
 
-## Example of a Smart Question
+## The Learning Curve
 
+Naturally, "magic" is not free. At first, learning the Bootstrap grid system (col-6, col-md-4, container-fluid, etc.) was like learning algebra. I had to stop manipulating each pixel by hand. However, everything fell into place when I realized that the framework was handling the challenging tasks for me. Instead of taking hours, I could now create a fully responsive layout in a matter of minutes.
 
+I basically lived on the Bootstrap documentation website in the beginning. I would be looking for ways to align text in a column, center an image, or make a button the proper color every few minutes. With so many classes to learn and rules that didn't always make sense at first, it was like learning another language. I would repeatedly reload my page, make endless adjustments, and copy bits and pieces from the examples until something finally worked. It was slow and occasionally annoying, but the more I used it, the more I got the hang of it.
 
 ## Use of AI Assistance
 
