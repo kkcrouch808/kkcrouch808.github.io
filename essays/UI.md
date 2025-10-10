@@ -33,12 +33,11 @@ I basically lived on the Bootstrap documentation website in the beginning. I wou
 
 ## Raw CSS vs Bootstrap
 
-| Without Framework (Raw CSS)                                | With Bootstrap 5                                               |
-| ---------------------------------------------------------- | -------------------------------------------------------------- |
-| ~100+ lines of custom CSS for a basic navbar               | 3 classes: `navbar`, `navbar-expand-lg`, `navbar-dark bg-dark` |
-| Inconsistent across browsers                               | Sensible, consistent defaults                                  |
-| Breaks on small screens unless you hand-roll media queries | Responsive by default with the grid & utilities                |
-
+| **Without Framework (Raw CSS)** | **With Bootstrap 5** |
+|:-------------------------------|:--------------------|
+| ~100+ lines of custom CSS for a basic navbar | 3 classes: `navbar`, `navbar-expand-lg`, `navbar-dark bg-dark` |
+| Inconsistent across browsers | Sensible, consistent defaults |
+| Breaks on small screens unless you hand-roll media queries | Responsive by default with the grid & utilities |
 
 ---
 
