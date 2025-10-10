@@ -11,7 +11,7 @@ labels:
   - Frameworks
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/TonyMeme.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/bootstramMeme.jpg">
 
 *I believed that HTML and CSS alone were good enough when I first started designing web pages. I could align boxes, add colors, and create buttons. What more could I ask for? It felt like learning a whole new language when I first encountered Bootstrap 5. At first, the sight of rows, columns, containers, and breakpoints was overwhelming. I could just code everything by hand, so why even bother with this?*
 
