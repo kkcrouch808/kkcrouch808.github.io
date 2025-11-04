@@ -12,6 +12,13 @@ labels:
 
 # Mānoa RoomieMatch Proposal Essay
 
+---
+
+## Names of the proposers
+**Katelynn Kalaniakea Crouch**  
+
+---
+
 ## Overview
 
 ### The problem
@@ -22,15 +29,9 @@ There is currently no UH-focused platform that helps students understand whether
 ### The solution
 **Mānoa RoomieMatch** provides UH students with a personalized, AI-enhanced roommate matching experience. Students log in and create a lifestyle profile covering sleep routines, cleanliness standards, study habits, noise tolerance, guest expectations, cooking frequency, personality traits, and budget/space preferences.  
 
-The system compares profiles to generate a **compatibility score**, along with an *AI-generated explanation* describing areas of alignment and potential conflict. Students can browse matches, view detailed comparisons, and reach out to peers they’re compatible with.
+The system compares profiles to generate a compatibility score, along with an AI-generated explanation describing areas of alignment and potential conflict. Students can browse matches, view detailed comparisons, and reach out to peers they’re compatible with.
 
-In addition, the system can generate **AI-assisted communication templates**, personalized housing advice, and conflict-prevention tips based on the student’s preferences.
-
----
-
-## Names of the proposers
-**Katelynn Kalaniakea Crouch**  
-(Add group member names here if applicable.)
+In addition, the system can generate AI-assisted communication templates, personalized housing advice, and conflict-prevention tips based on the student’s preferences.
 
 ---
 
@@ -66,34 +67,34 @@ Once a student creates their lifestyle and housing profile, the system stores th
 
 ## Some mockup page ideas
 
-### ✅ Landing Page
+### Landing Page
 - Explanation of the platform  
 - “Start Matching” call-to-action  
 - Summary of AI features  
 
-### ✅ User Home Page
+### User Home Page
 - Overview of user’s profile  
 - Compatibility highlights  
 - Quick access to matches  
 - Notifications  
 
-### ✅ Profile Setup Page
+### Profile Setup Page
 - Multi-step lifestyle survey  
 - Progress indicator  
 - Save-as-you-go  
 
-### ✅ Browse Matches Page
+### Browse Matches Page
 - List or grid of potential roommates  
 - Match percentages  
 - Preview of key traits  
 - “View Details” button  
 
-### ✅ Match Details Page
+### Match Details Page
 - Side-by-side comparison  
 - AI-generated compatibility report  
 - Suggested conversation prompts  
 
-### ✅ Admin Home Page
+### Admin Home Page
 - Manage users  
 - Moderate flagged content  
 - Add/edit lifestyle categories  
@@ -132,20 +133,20 @@ Once a student creates their lifestyle and housing profile, the system stores th
 
 After building the core features, the following advanced options can enhance the platform:
 
-### ✅ Dorm Recommendation System
+### Dorm Recommendation System
 AI suggests UH dorms based on:
 - Noise preference  
 - Budget  
 - Room type (double, suite, apartment)  
 - AC vs. non-AC  
 
-### ✅ Advanced Matching Insights
+### Advanced Matching Insights
 Allow users to see:
 - Compatibility heatmaps  
 - “Potential conflict alerts”  
 - Personalized compromise suggestions  
 
-### ✅ Roommate Agreement Generator
+### Roommate Agreement Generator
 AI produces a personalized roommate contract covering:
 - Cleaning schedule  
 - Guest rules  
@@ -153,13 +154,13 @@ AI produces a personalized roommate contract covering:
 - Shared spaces  
 - Privacy expectations  
 
-### ✅ Schedule Compatibility Sync
+### Schedule Compatibility Sync
 Sync UH class schedules to identify:
 - Overlapping free hours  
 - Morning vs. night routines  
 - Shared optimal times for bathroom/kitchen  
 
-### ✅ Household Planner
+### Household Planner
 Shared tools for:
 - Chore rotation  
 - Expense tracking  
