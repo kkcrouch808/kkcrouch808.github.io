@@ -15,18 +15,18 @@ labels:
 ---
 
 ## Names of the proposers
-**Katelynn Kalaniakea Crouch**  
+**Katelynn Crouch**  
 
 ---
 
 ## Overview
 
-**The problem**
+### The problem
 Every semester, hundreds of UH Mānoa students struggle to find compatible roommates—whether in the dorms (Hale Aloha, Gateway, Frear) or in off-campus apartments. This issue is amplified by the fact that approximately 31% to 36% of the UH Mānoa student population comes from out of state, meaning a large portion of students arrive in Hawaiʻi without established local connections or housing arrangements. Students commonly report conflicts due to mismatched sleep schedules, noise preferences, cleanliness expectations, guest habits, or study routines. Without a structured way to evaluate compatibility, students rely on random Snapchat and posts, word-of-mouth searching, or even dating apps, often resulting in stressful living situations, roommate conflicts, and frequent room switches.
 
 There is currently no UH-focused platform that helps students understand whether they are compatible *before* committing to live together.
 
-**The solution**
+### The solution
 **Mānoa RoomieMatch** provides UH students with a personalized, AI-enhanced roommate matching experience. Students log in and create a lifestyle profile covering sleep routines, cleanliness standards, study habits, noise tolerance, guest expectations, cooking frequency, personality traits, and budget/space preferences.  
 
 The system compares profiles to generate a compatibility score, along with an AI-generated explanation describing areas of alignment and potential conflict. Students can browse matches, view detailed comparisons, and reach out to peers they’re compatible with.
