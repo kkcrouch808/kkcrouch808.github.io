@@ -4,7 +4,7 @@ type: essay
 title: "Manoa RoomieMatch Proposal Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2025-11-05
-published: true
+published: false
 labels:
   - Software Engineering
   - Nextjs
