@@ -33,7 +33,18 @@ In the beginning, I used ChatGPT to assist me with the WODs. I would put the WOD
 
 ### In-class Practice WODs
 
-My approach to in-class practice WODs was similar. At first, I used ChatGPT by pasting in the instructions, but I later relied more on Copilot. Copilot worked better when I included detailed constraints from the instructions. For example, during the Coding Standards practice WOD on 9/25, I added notes about ESLint errors, functional programming requirements, ordering constraints, and test cases. This improved the quality of Copilot’s suggestions, but I still had to manually adjust and verify the code.
+In the beginning, I used ChatGPT to assist me with the WODs. I would put the WOD instructions straight into ChatGPT along with any additional information I had. It would get me through some WODs but it was hard to correct areas that weren’t working correctly. I then learned how to use CoPilot and it was way more efficient. When I needed specific things corrected, it would not work sometimes and I would go in circles trying to rephrase my prompt. I learned that it was easier to correct things myself or look at previous examples. My CoPilot prompts would include the whole WOD instructions with additional information I had. For example, on 9/25: In-class Practice WOD: Coding Standards I added 
+“Additional notes: 
+data may have a lot of es lint errors
+use functional programming, no loops
+must implement these and additional cases: 
+do not make generic function
+read directions carefully, make a criteria if needed
+Comment code thoroughly
+order matters
+The instructions use the word wai. do not implement it with wai, the word is: kai
+for testing there should be 7 cities that have the word kai in it"
+
 
 ---
 
@@ -45,19 +56,22 @@ For in-class WODs, I again transitioned from ChatGPT to Copilot. ChatGPT was use
 
 ### Essays
 
-I used ChatGPT to support the writing of my essays. AI helped me refine my ideas, improve clarity, and organize my explanations. I usually included the essay instructions, the technical essay guide, and my own notes in the prompt. Example prompts included asking whether my essay followed the requirements or requesting help improving professionalism and flow. All final writing decisions were made by me.
+I used ChatGPT to support the writing of my essays. AI helped me with: Helping me refine my thoughts and points on the examples, so that my explanations were clearer and more complete. Providing editorial feedback on structure, clarity, and tone. The AI tools supported me in brainstorming, drafting, and polishing my work. An example prompt would include the essay instructions, the technical essay guide, any thoughts or additional information needed and a simple prompt: “based off of this information, make a draft for my essay”, “does my essay follow the requirements and instructions”, “make my essay sound more professional” 
 
 ---
 
 ### Final Project
 
-For the final project, Mānoa RoomieMatch, I used both ChatGPT and GitHub Copilot heavily. Copilot was especially effective for web development tasks such as UI updates, profile pages, and navigation fixes. I often asked Copilot to draft an initial solution and then refined it through smaller, specific changes. ChatGPT was mainly used to explain errors and answer conceptual questions. In some cases, Copilot suggested multiple approaches, which helped me choose a better solution before implementing it.
+For my final project, I used mainly ChatGPT and CoPilot, although I experimented with AntiGravity and found it to be too new to be useful. CoPilot is very good at working on websites when you use it correctly and found myself using it heavily for maximum efficiency. I used ChatGPT to explain concepts and errors to me and had it answer any quick questions I had. However, sometimes my questions were too specific to my project and CoPilot would do a great job answering them. When working on Mānoa RoomieMatch, I would make CoPilot draft what I needed first, then work on small, specific tasks. Sometimes I would ask it for input and go back and forth with CoPilot to figure out the best way of going about a task. It usually had great ideas and gave multiple ways of doing tasks and once I liked a plan it was easy to ask it to complete it for me. Example of CoPilot prompt: 
+- “I would like to update the "View profile" it seems like it is not fully accurate. I removed the smoking, drinking, and pets a while ago but it still seems to show up across the website like in the filter tool too. I need those removed everywhere. Also, the interests are currently showing green boxes with no text. Let me know if you neeed clarification”
+- “Currently, when a user makes a new account, they are prompted with the lifestyle survey to complete. After the new user completes the survey, I want the user to be prompted with the edit profile page. Do you have any other suggestions”
+- "What do you think about adding a filter and sort tool to browse matches page? what suggestions do you have? I feel that sorting by gender and dorm prefrence would be most useful"
 
 ---
 
 ### Learning a Concept or Tutorial
 
-When learning new concepts, I mainly used ChatGPT. It was helpful for breaking down complex topics into simpler explanations. I often asked ChatGPT to explain concepts using analogies or very simple language. This made topics like React state, functional programming, and Next.js routing easier to understand. For longer tutorials, I preferred YouTube, but AI was useful for quick clarification.
+For learning concepts, I mainly used ChatGPT. ChatGPT is great at explaining basic concepts and I could even customize how I wanted the explanation. If the explanation was too complex for me to understand, I could simply add a “explain this to me like I’m 15” or “add analogies” or “explain in one paragraph using very simple terms”. I could also ask questions about these concepts like it was my tutor. I found that tutorials are best on YouTube unless it's something simple like terminal commands.
 
 ---
 
@@ -81,7 +95,7 @@ I do not recall needing AI-generated coding examples in ICS 314.
 
 ### Explaining Code
 
-I frequently used ChatGPT and Copilot to explain code. ChatGPT worked well for general explanations, while Copilot was better when the explanation required project-specific context. If an explanation was too complex, I would ask AI to simplify it or use analogies.
+I would ask ChatGPT and CoPilot to explain the code. I would mainly use Chat GPT unless it required more context of the project as a whole. I found that both are great at explaining code. If the explanation was too complex for me to understand, I could simply add a “explain this to me like I’m 15” or “add analogies” or “explain in one paragraph using very simple terms”. I could also ask questions about these concepts like it was my tutor.
 
 ---
 
@@ -93,13 +107,13 @@ I used GitHub Copilot extensively when writing code. Copilot helped speed up dev
 
 ### Documenting Code
 
-I mainly used Copilot to document my code. I often added prompts such as “add comments explaining this” or asked Copilot to comment an entire file after finishing an issue. This made my code easier to read and maintain.
+I mainly used CoPilot to document my code, it was very effective at doing so. I would add “add comments explaining” to the end of some of my prompts. Or after I completed one of my issues, I would send a prompt like “add comments to everything”.
 
 ---
 
 ### Quality Assurance
 
-When fixing bugs or ESLint errors, I used AI to help identify issues and suggest fixes. AI was useful for pointing out common mistakes, but I always tested and verified changes myself.
+When fixing bugs or ESLint errors, CoPilot would usually double-check for me before I could even ask. Before I started using CoPilot, I would paste my errors into ChatGPT and any context it needed to fix my code. In the beginning the ESLint errors gave me a lot of trouble especially because CoPilot wasn't able to see them. I larned to fix errors on my own and if I needed extra help from CoPilot I learned I could refrence my terminal to have it fix the errors for me.
 
 ---
 
