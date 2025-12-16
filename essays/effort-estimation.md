@@ -1,41 +1,27 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea"
+title: "Estimating the Unknown"
 # All dates must be YYYY-MM-DD format!
-date: 2025-11-04
+date: 2025-12-15
 published: true
 labels:
   - Software Engineering
-  - Nextjs
 ---
 
-# Mānoa RoomieMatch Proposal Essay
-
----
-
-## Names of the proposers
-**Katelynn Crouch**  
+# Estimating the Unknown: Tracking Effort in a Software Project
 
 ---
 
-## Overview
+## Introduction
 
-### The problem
-Every semester, hundreds of UH Mānoa students struggle to find compatible roommates—whether in the dorms (Hale Aloha, Gateway, Frear) or in off-campus apartments. This issue is amplified by the fact that approximately 31% to 36% of the UH Mānoa student population comes from out of state, meaning a large portion of students arrive in Hawaiʻi without established local connections or housing arrangements. Students commonly report conflicts due to mismatched sleep schedules, noise preferences, cleanliness expectations, guest habits, or study routines. Without a structured way to evaluate compatibility, students rely on random Snapchat and posts, word-of-mouth searching, or even dating apps, often resulting in stressful living situations, roommate conflicts, and frequent room switches.
+In software development, it is easy to underestimate how much time a task will actually take. Features that seem simple at first often involve more work once testing, styling, and integration are considered. While working on Mānoa RoomieMatch, a roommate matching web application built by a six-person team, I was responsible for many user-facing features such as profile pages, navigation updates, and interface cleanup.
 
-There is currently no UH-focused platform that helps students understand whether they are compatible *before* committing to live together.
-
-### The solution
-**Mānoa RoomieMatch** provides UH students with a personalized, AI-enhanced roommate matching experience. Students log in and create a lifestyle profile covering sleep routines, cleanliness standards, study habits, noise tolerance, guest expectations, cooking frequency, personality traits, and budget/space preferences.  
-
-The system compares profiles to generate a compatibility score, along with an AI-generated explanation describing areas of alignment and potential conflict. Students can browse matches, view detailed comparisons, and reach out to peers they’re compatible with.
-
-In addition, the system can generate AI-assisted communication templates, personalized housing advice, and conflict-prevention tips based on the student’s preferences.
+Throughout the project, I estimated my effort in advance and tracked my actual time spent on both coding and non-coding work. Although my estimates were often inaccurate, the process helped me better understand where time is truly spent in a real software project.
 
 ---
 
-## Approach
+## How I Made My Effort Estimates
 
 Once a student creates their lifestyle and housing profile, the system stores their preferences and makes them available for matching.
 
