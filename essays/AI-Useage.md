@@ -101,7 +101,7 @@ I would ask ChatGPT and CoPilot to explain the code. I would mainly use Chat GPT
 
 ### Writing Code
 
-I used GitHub Copilot extensively when writing code. Copilot helped speed up development by generating boilerplate code, suggesting functions, and completing repetitive patterns. I reviewed and edited all generated code to ensure correctness and understanding.
+I used GitHub Copilot extensively when writing code. Copilot helped speed up development by generating boilerplate code, suggesting functions, and completing repetitive patterns. I reviewed and edited all generated code to ensure correctness and understanding. A good example of a prompt I used in my final project included my whole proposal essay [*see here*](https://kkcrouch808.github.io/essays/final-project.html) followed by the mockup image of the landing page and "create a draft landing paged based off of this information and my mockup image".
 
 ---
 
@@ -113,13 +113,13 @@ I mainly used CoPilot to document my code, it was very effective at doing so. I 
 
 ### Quality Assurance
 
-When fixing bugs or ESLint errors, CoPilot would usually double-check for me before I could even ask. Before I started using CoPilot, I would paste my errors into ChatGPT and any context it needed to fix my code. In the beginning the ESLint errors gave me a lot of trouble especially because CoPilot wasn't able to see them. I larned to fix errors on my own and if I needed extra help from CoPilot I learned I could refrence my terminal to have it fix the errors for me.
+When fixing bugs or ESLint errors, CoPilot would usually double-check for me before I could even ask. Before I started using CoPilot, I would paste my errors into ChatGPT and any context it needed to fix my code. In the beginning the ESLint errors gave me a lot of trouble especially because CoPilot wasn't able to see them. I larned to fix errors on my own and if I needed extra help from CoPilot I learned I could refrence my terminal to have it fix the errors for me. An example CoPilot prompt for fixing ESLint errors: "Run the commad to check for ESLint errors, if there are any, fix them" or after running "npm run lint" I would say "fix my lint errors, see terminal".
 
 ---
 
 ### Other Uses
 
-I also used AI for brainstorming UI ideas, improving consistency across pages, and thinking through user experience decisions.
+I also used AI for brainstorming UI ideas, improving consistency across pages, and thinking through user experience decisions. For example, our team used ChatGPT to come up with mockup pages before we started coding. Here is a prompt I used for our resources page: "Can you help me make a mockup page for our resources page for our roomate matching website? I'm going to include mostly school housing resources but I'd like to include information on each site and pages of the websites. It should be green themed. make a mockup image".
 
 ---
 
