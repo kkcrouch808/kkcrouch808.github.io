@@ -4,7 +4,7 @@ type: essay
 title: "To Smart or Not to Smart"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-09
-published: true
+published: false
 labels:
   - Questions
   - Answers
