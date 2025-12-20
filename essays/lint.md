@@ -1,6 +1,9 @@
 ---
-layout: essay
-type: essay
+layout: ess## Getting Past the Small Stuff
+
+People always overlook minor details like where to place curly braces or whether to use two or four spaces for indentation. This is a part of learning the term "coding standards." You may even ask why it even matters if there were two spaces rather than four. What difference does it make? The point isn't about the importance of spaces, though. Coding standards reduce errors, improve readability, and establish consistency. It's like speaking a common language where everyone follows the same rules. You spend more time comprehending what the code does and less time trying to understand the decisions made by others.
+
+## A Tool That Teachespe: essay
 title: "Two Spaces or Four?"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-25

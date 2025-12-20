@@ -4,7 +4,7 @@ type: essay
 title: "Weird but Worth It"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-07
-published: true
+published: false
 labels:
   - Engineering
   - Typescript
